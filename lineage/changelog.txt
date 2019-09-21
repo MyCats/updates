@@ -1,0 +1,269 @@
+LineageOS Changelog
+
+================
+   26-08-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: Initial unofficial trees
+ whyred: Update thermal config
+ whyred: Update GPS configs
+ whyred: Initial commit for LineageOS
+ whyred: Track vendor from gitlab
+ whyred: Update proprietary-files
+ whyred: temporarily go back to 10.3.1.0 fingerprint
+ Set SV in use mask based on final fixes
+ whyred: uprev vendor.qti.data.factory to 1.1 in vendor framework comp…
+ whyred: update build fingerprint from V10.3.2.0.PEIMIXM
+ whyred: Add factory hal 1.1 to manifest
+ msm_irqbalance: Add glink lpass irq to ignored list
+ whyred: revert timeservice blobs to V10.3.1.0.PEIMIXM
+ whyred: audio: Add BT SCO to routes list
+ whyred: audio: Load A2DP configuration from a2dp_audio_policy_configu…
+ whyred: audio: Update policy_configuration from caf
+ whyred: Update IFAA for pie blobs
+ whyred: audio: update audio acdb ids for fluence
+ whyred: audio: enable fluence for audio/voice rec
+ whyred: Drop USE_OPENGL_RENDERER flag
+ whyred: Remove custom VSYNC offsets
+ whyred: compile kernel with clang 9.0.5
+ whyred: gps: Disable unused location services
+ whyred: set TARGET_HAS_NO_POWER_STATS
+ whyred: Remove HWUI properties
+ whyred: set TARGET_HAS_NO_WLAN_STATS
+ whyred: Remove unnecessary TARGET_USES_MKE2FS
+ whyred: update proprietary files listing
+ whyred: pin patched mlipay
+ whyred: introduce fixup scripts and kang mode
+ whyred: update blobs from LA.UM.7.2.r1-06900-sdm660.0
+ whyred: update blobs list for miui_HMNote5Global_V10.3.1.0.PEIMIXM_d4…
+ whyred: Declare STATE_DOZE support
+
+android_kernel_xiaomi_whyred:
+ Illusion Kernel v5.7
+
+android_vendor_xiaomi_whyred:
+ Tweaked thermals to solve slow charge issue on Whyred
+ whyred: Increase GPS
+ whyred: Initial vendor
+
+================
+   12-08-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: Update thermal configs
+
+android_kernel_xiaomi_whyred:
+ Linux 4.4.189
+
+android_vendor_xiaomi_whyred:
+ whyred: Fix build after cleaning thermal configs
+ Tweaked thermal config files to solve slow charging issue on whyred
+ Delete unused thermal config files
+
+================
+   09-08-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: whyred: Drop USE_OPENGL_RENDERER flag
+ whyred: Fix WIFI configs
+
+android_kernel_xiaomi_whyred:
+ Illusion Kernel v5.6 (Linux 4.4.188)
+ LA.UM.7.2.r1-07400-sdm660.0
+
+android_vendor_xiaomi_whyred:
+ whyred: Update time service and thermal configs
+
+================
+   05-08-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: Change kernel defconfig
+ whyred: Compile with Clang 9.0.5
+ whyred: Fix clang project name
+ 
+android_kernel_xiaomi_whyred:
+ Gone to Illusion kernel v5.5
+ whyred: defconfig: Disable battery BCL feature
+ whyred: defconfig: Update localversion
+
+================
+   18-07-2019
+================
+
+android_device_xiaomi_whyred:
+ Revert "whyred: merge unofficial trees"
+ Revert "whyred: overlay: Increase amount of visible notification icons"
+ Revert "whyred: Update GPS from LA.UM.7.2.r1-07000-sdm660.0"
+ Revert "whyred: gps: Disable unused location services"
+ whyred: Max brightness fix 
+
+================
+   17-07-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: restore gps config
+ whyred: resolve merge conflicts
+ whyred: Use clang 9.0.5
+ whyred: Update proprietary-files
+ Revert "whyred: add system property to set AudioFlinger client heap s…
+ whyred: wifi: Enable DFS channel scanning in P2P search 
+ whyred: Don't consider CAF gps.conf as build target
+ whyred: update gps.conf from V10.3.1.0
+ whyred: rootdir: Add missing dynamic fps node
+ whyred: update system build props from V10.3.1.0.PEIMIXM
+ whyred: update time service blobs from LA.UM.7.2.r1-06900-sdm660.0
+ sdm660: add cpu set for audio app
+ whyred: Address time_daemon denials
+ whyred: Add persist.radio.aosp_usr_pref_sel for Telephony
+ whyred: wifi: update configs from V10.3.1.0.PEIMIXM
+ whyred: gps: Disable unused location services
+ props: Optimize ART props
+ whyred: Update GPS from LA.UM.7.2.r1-07000-sdm660.0
+ whyred: set TARGET_HAS_NO_POWER_STATS
+ whyred: Remove HWUI properties
+ whyred: set TARGET_HAS_NO_WLAN_STATS
+ whyred: overlay: Increase amount of visible notification icons
+ whyred: Remove unnecessary TARGET_USES_MKE2FS
+
+android_kernel_xiaomi_whyred:
+  qcacld-3.0: Fix null pointer dereference in htt_rx_amsdu_rx_in_order_…
+  ntp: Allow TAI-UTC offset to be set to zero
+  drm/bridge: adv7511: Fix low refresh rate selection
+  173 more commits (look at https://github.com/GuaiYiHu/android_kernel_xiaomi_whyred/compare/629fe767c9...46057a92f3)
+
+================
+   04-07-2019
+================
+
+android:
+ July Security Patch
+
+================
+   01-07-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: increase gps config
+
+android_kernel_xiaomi_whyred:
+ nvt_touch_wayne: Create procfs node to handle userspace dt2w switch
+ wayne: defconfig: Regenerate
+
+================
+   27-06-2019
+================
+
+android_device_xiaomi_whyred:
+ reset to commit 038ff52
+
+================
+   26-06-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: increase gps
+ whyred: merge unofficial trees
+
+android_vendor_xioami_whyred:
+ whyred: increase gps
+
+================
+   22-06-2019
+================
+
+android_device_xioami_whyred:
+ whyred: revert cleanup usb shell script
+ whyred: tf2w not working
+ whyred: fix parsing xml
+ whyred: update proprietary files
+
+================
+   20-06-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: tap fingerprint to wake
+
+================
+   17-06-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: lineagify
+ whyred: gotta go snap
+ whyred: fix kernel defconfig
+ whyred: dont override clang version
+ whyred: migrate to pe kernel
+ whyred: we have only a white led
+ whyred: open sdcard instead of downloads
+ whyred: link to defconfig
+ whyred: revert perf defconfig
+
+android_kernel_xiaomi_whyred:
+ gone to PixelExperience kernel
+
+android_vendor_xiaomi_whyred:
+ gone to Global Stable vendor
+
+================
+   15-06-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: restore light hal from mkp
+ whyred: update fingerprint to 9.6.13
+ whyred: add dirac translations from miui
+ whyred: update fstab entries
+ whyred: refactor dirac setup
+ whyred: push bootcompletedreceiver
+ whyred: add summary for dirac
+ whyred: add diracsound backend
+ whyred: introduce dirac preferences
+ whyred: move checkdozeservice in a handler
+ whyred: add doze package to settings
+ whyred: add dirac effect
+ whyred: add dirac to proprietary files
+ whyred: light hal from msm8998-common
+ whyred: brightness overlay from marlin
+ whyred: set correct model for global
+ whyred: update wfdservice from oneplus5t
+ whyred: update fingerprint to 9.6.10
+ whyred: xiaomidoze => xiaomiparts
+ 
+android_vendor_xiaomi_whyred:
+ whyred: add libdirac
+ whyred: add diracmobile config
+ whyred: add libdiracapi_shared
+ whyred: update wfdservice from oneplus5t
+
+================
+   11-06-2019
+================
+
+android_kernel_xiaomi_whyred:
+ Revert "qcacld-3.0: Register mon interface using hdd_add_virtual_intf"
+ Revert "qcacld-3.0: Register-Deregister mon context and callback"
+ Revert "qcacld-3.0: Fix OOB in wma_stats_event_handler"
+ Merge tag 'c980a7e8cf6f21dfa5e68159abc992004158ba6f' into mkp
+ Merge tag 'acb190a85631edef55dcb53605badb34a3230cc1' into mkp
+ Merge tag '8c4260ca73bdc03b538a7e90e89210da8b293e05' into mkp
+ Revert "msm: mdss: hdmi: skip pan_display during handoff"
+ Revert "soc: qcom: secure_buffer: Process large SG tables in batches"
+ Merge tag 'LA.UM.7.2.r1-07000-sdm660.0' of https://source.codeaurora.…
+ Merge branch 'android-4.4' of https://android.googlesource.com/kernel… 
+
+================
+   08-06-2019
+================
+
+android_device_xiaomi_whyred:
+ whyred: update hal buffering configuration
+ whyred: add support for suspend mixer ctls
+ whyred: remove dolby formats by default
+ whyred: update compatibility matrix
