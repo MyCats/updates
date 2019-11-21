@@ -1,7 +1,54 @@
 LineageOS Changelog
 
 ================
-   26-08-2019
+   21-11-2019
+================
+
+android:
+ manifest: Track some required repos
+ manifest: Switch to our fork of e2fsprogs 
+ manifest: android-10.0.0_r4 -> android-10.0.0_r11 
+ lineage: Enable Snap 
+ lineage: Reenable lineage sepolicy
+ manifest: Switch to our aosp sdm845 display hal
+
+android_device_xiaomi_whyred:
+ whyred: VSP date hack
+ whyred: Change kernel
+ whyred: wifi: Enable DFS channel scanning in P2P search 
+ whyred: rootdir: Add missing dynamic fps node
+ sdm660: add cpu set for audio app
+ whyred: Add persist.radio.aosp_usr_pref_sel for Telephony
+ whyred: wifi: update configs from V10.3.1.0.PEIMIXM
+ whyred: Update GPS from LA.UM.7.2.r1-07000-sdm660.0
+ props: Optimize ART props
+ whyred: Remove HWUI properties
+ whyred: set TARGET_HAS_NO_POWER_STATS
+ whyred: set TARGET_HAS_NO_WLAN_STATS
+ whyred: update proprietary files listing
+ whyred: Add dummy perf profile.
+ whyred: Add vendor.qti.hardware.iop to manifest
+ whyred: Import perf blobs from V10.3.1.0.PEIMIXM
+ whyred: media_profiles: Remove highspeed profiles
+ whyred: Update WfdService from OP5T
+ whyred: Kang light hal from xiaomi msm8998
+ whyred: light: adapt for single white LED
+ whyred: Enable TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT
+ whyred: Pin HOME application
+ whyred: Kang brightness overlays from marlin
+ whyred: org.mokee.settings.doze => org.lineageos.settings.doze
+ whyred: doze: Follow Android 10 changes on switchbar
+ whyred: Declare STATE_DOZE support
+ Revert "whyred: [temp] Nuke doze"
+ whyred: overlay: Apply padding for rounded corner
+ whyred: overlay: Pin camera app
+ init: Set correct model for Global variant too
+
+android_kernel_xiaomi_whyred:
+ Moved to KradKJ's kernel
+
+================
+   23-10-2019
 ================
 
 Initial build
